@@ -1,0 +1,27 @@
+{
+  "name": "song_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && babel-node index.js",
+    "getData": "babel-node getData.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "axios": "^0.16.2",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "csv-parse": "^1.2.1",
+    "fast-csv": "^2.4.0",
+    "mongoose": "^4.11.6",
+    "mongoose-to-csv": "^0.1.1",
+    "rimraf": "^2.6.1",
+    "spotify-web-api-node": "^2.4.0",
+    "var": "^0.2.0"
+  }
+}
